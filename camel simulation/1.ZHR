@@ -1,0 +1,21 @@
+ Mechanical and Manufacturing Engineering                          13 SEP 2017
+ University of New South Wales - 2016                                    21:23
+ -----------------------------------------------------------------------------
+JOB TITLE: assignment1                             
+ 
+ZONES AND ROOMS HEATING RESULTS AND CHECK FIGURES
+ (excluding Outside Air except as noted)
+;;;;;;AHU
+AHU;ZONE;TITLE;NO;FABRIC;S/A;O/A;ROOM;ROOM;TOTAL
+NO;NO;;OFF;kW;l/s;l/s;CDB;%RH;kW;W/m3;W/m2
+  1;;AHU1                ;  1;  10.9;   1306;     0;21.0; 80;  10.9;16.6;74.6
+  2;;AHU2                ;  1;  31.8;   4180;     0;21.0; 80;  31.8;16.1;72.4
+ 
+ Note 1~ Values are at peak times except room CH/Hr and l/s/m2 is at zone peak.      
+ Note 2~ The zone air quantities are distributed to the rooms in the ratio of        
+         the room floor areas or in the ratio of the room peak sensible loads.       
+ Note 3~ Air change rates with an asterisk have reached either the user entered      
+         minimum (airchange, l/s/m2 or l/s) or outdoor air, whichever is the greater.
+ Note 4~ AQ MUL greater than unity indicates that the design air quantities          
+         have been increased to satisfy room minimums. The room with the             
+         largest AQ MUL has the most effect.                                         

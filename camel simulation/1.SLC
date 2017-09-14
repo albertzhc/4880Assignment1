@@ -1,0 +1,249 @@
+ Mechanical and Manufacturing Engineering                          13 SEP 2017
+ University of New South Wales - 2016                                    21:23
+ -----------------------------------------------------------------------------
+<  1  0  0 AHU
+aAHU No.   1   AHU1                
+>  1  0  0 AHU
+<  1  1  1 SPC LOADCHART
+
+aZone   1   T06                    (Room   1)
+  (  1 OFF,      0 l/s minimum Supply Air)
+>  1  1  1 SPC LOADCHART
+<  1  1  1 SPC REITERATION
+<  1  1  1 ERRORS
+>  1  1  1 ERRORS
+bSUMMARY OF INPUT DATA NOT ITEMISED IN LOAD CHART
+ AHU OPERATING HOURS  9AM TO  8PM. CALCS BASED ON 16 HOURS OPERATION FROM 6AM
+
+dINTERNAL LOADS           6AM   7AM   8AM   9AM  10AM  11AM   NOON  1PM 
+                        -----------------------------------------------
+   NO OF PEOPLE                            50.0  50.0  50.0  50.0  50.0
+   LIGHTS (KW)                              4.8   4.8   4.8   4.8   4.8
+   APPLIANCES SENS (KW)                     2.5   2.5   2.5   2.5   2.5
+   APPLIANCES LAT  (KW)                     0.3   0.3   0.3   0.3   0.3
+                        -----------------------------------------------
+
+dINTERNAL LOADS           2PM   3PM   4PM   5PM   6PM   7PM   8PM   9PM 
+                        -----------------------------------------------
+   NO OF PEOPLE          50.0  50.0  50.0  50.0  50.0  50.0  50.0      
+   LIGHTS (KW)            4.8   4.8   4.8   4.8   4.8   4.8   4.8      
+   APPLIANCES SENS (KW)   2.5   2.5   2.5   2.5   2.5   2.5   2.5      
+   APPLIANCES LAT  (KW)   0.3   0.3   0.3   0.3   0.3   0.3   0.3      
+                        -----------------------------------------------
+
+dEXTERNAL SURFACES (Dimensions in mm except for adjacent shading)
+                    (ZERO SURFACE EXPOSURE IS NORTH)
+                         -------                                   
+   SURFACE NUMBER             #1                                   
+                         -------                                   
+   SURFACE EXPOSURE          0.0                                   
+   SURFACE HEIGHT           6000                                   
+   SURFACE WIDTH            9000                                   
+   WINDOW HEIGHT            3000                                   
+   WINDOW WIDTH             3000                                   
+   WINDOW VERT. OFFSET      1500                                   
+   WINDOW HORIZ. OFFSET     3000                                   
+   WINDOW NO. OFF HORIZ.     1.0                                   
+   WINDOW NO. OFF VERT.      1.0                                   
+                         -------                                   
+
+ LEGEND of wall and window types
+
+  SURFACE   WALL TYPE   WINDOW TYPE     SURFACE  WALL TYPE    WINDOW TYPE
+  -------   ----------  ----------      -------  ----------   ---------- 
+    #1      wall1       two                                             
+
+ Floor Area  146.0 m2   Volume   657.0 m3   Average Ceiling Height  4500. mm
+
+>  1  1  1 SPC REITERATION
+<  1  1  1 COOLING LOADCHART
+
+bROOM COOLING LOAD CHART AT NOMINATED TIME  3PM DEC                             
+ (SUN POSITION ~ ALTITUDE = 49.3  AZIMUTH =268.1)
+ AHU OPERATING HOURS  9AM TO  8PM. CALCS BASED ON 16 HOURS OPERATION FROM 6AM
+
+c SOLAR GAIN GLASS  ( 309 kg/m2. Modified storage load factors used)            
+
+d                                   FRAME                                       
+d No        SUN  EXPOSE   AREA GAIN S.FAC DEW STOR SHADE ROOM    WATTS          
+  -----------------------------------------------------------                    
+  #1        OFF     0.0   9.00   70 1.10 1.02 .857 0.94  100% =    572           
+
+c SOLAR AND TRANSMISSION GAINS WALLS AND ROOFS (Using light wt roof data)       
+ 
+d No        SUN  EXPOSE S.DENS ABS   AREA T-DIFF UVALUE  ROOM                   
+  -----------------------------------------------------------                    
+  #1        OFF     0.0 (426 0.70)  45.00    5.2   0.40  100% =     94           
+
+c TRANSMISSION GAIN EXCEPT WALLS AND ROOFS                                      
+ 
+d No        ITEM                     AREA T-DIFF UVALUE  ROOM                   
+  -----     ----                     ---- ------ ------  ----                    
+  #1        GLASS                    9.00   10.3   5.62  100% =    521           
+            INFILTRATION             383.   10.3   1.21       =   4776           
+
+c INTERNAL HEAT GAIN                                                            
+      PEOPLE (ACTIV = 4)                    50.0    72.  100% =   3600           
+      LIGHTS (FLR  309 kg/m2)               4800  0.92   100% =   4408           
+      APPLIANCES                             2.5  1000.  100% =   2500           
+                                                               -------           
+d                                          ROOM SENSIBLE HEAT =  16471          
+ 
+                                                                 -----           
+d                                 ADJUSTED ROOM SENSIBLE HEAT =          16471  
+
+c LATENT HEAT GAIN                                                              
+ 
+      INFILTRATION                           383    3.1  2.97 =   3541           
+      PEOPLE (ACTIV = 4)                    50.0    58.  100% =   2900           
+      APPLIANCES                             0.3  1000.  100% =    300           
+                                                                 -----           
+d                                            ROOM LATENT HEAT =   6741          
+ 
+                                                                 -----           
+d                                   ADJUSTED ROOM LATENT HEAT =           6741  
+
+>  1  1  1 COOLING LOADCHART
+<  1  1  1 HEATING LOADCHART
+
+bROOM HEATING LOAD CHART
+ 
+d No          EXPOSE   AREA T-DIFF UVALUE    WATTS                              
+cSENSIBLE
+  ------------------------------------------------                              
+cWALLS AND ROOFS
+  #1             0.0    45.0  20.3   0.40 =    367                              
+                                                                                
+cWINDOWS
+  #1             0.0     9.0  20.3   6.10 =   1114                              
+                                                                                
+                                                                                
+  INFILTRATION  383. l/s      20.3   1.21 =   9414                              
+                                            ------                              
+d                      ROOM SENSIBLE HEAT =  10896                              
+>  1  1  1 HEATING LOADCHART
+<  2  0  0 AHU
+aAHU No.   2   AHU2                
+>  2  0  0 AHU
+<  2  1  2 SPC LOADCHART
+
+aZone   1   MM03                   (Room   2)
+  (  1 OFF,      0 l/s minimum Supply Air)
+>  2  1  2 SPC LOADCHART
+<  2  1  2 SPC REITERATION
+<  2  1  2 ERRORS
+>  2  1  2 ERRORS
+bSUMMARY OF INPUT DATA NOT ITEMISED IN LOAD CHART
+ AHU OPERATING HOURS  9AM TO  8PM. CALCS BASED ON 16 HOURS OPERATION FROM 6AM
+
+dINTERNAL LOADS           6AM   7AM   8AM   9AM  10AM  11AM   NOON  1PM 
+                        -----------------------------------------------
+   NO OF PEOPLE                           140.0 140.0 140.0 140.0 140.0
+   LIGHTS (KW)                             12.1  12.1  12.1  12.1  12.1
+   APPLIANCES SENS (KW)                     9.4   9.4   9.4   9.4   9.4
+   APPLIANCES LAT  (KW)                     1.7   1.7   1.7   1.7   1.7
+                        -----------------------------------------------
+
+dINTERNAL LOADS           2PM   3PM   4PM   5PM   6PM   7PM   8PM   9PM 
+                        -----------------------------------------------
+   NO OF PEOPLE         140.0 140.0 140.0 140.0 140.0 140.0 140.0      
+   LIGHTS (KW)           12.1  12.1  12.1  12.1  12.1  12.1  12.1      
+   APPLIANCES SENS (KW)   9.4   9.4   9.4   9.4   9.4   9.4   9.4      
+   APPLIANCES LAT  (KW)   1.7   1.7   1.7   1.7   1.7   1.7   1.7      
+                        -----------------------------------------------
+
+dEXTERNAL SURFACES (Dimensions in mm except for adjacent shading)
+                    (ZERO SURFACE EXPOSURE IS NORTH)
+                         --------------                            
+   SURFACE NUMBER             #1     #2                            
+                         --------------                            
+   SURFACE EXPOSURE          0.0  270.0                            
+   SURFACE HEIGHT           6000   6000                            
+   SURFACE WIDTH           20000  26000                            
+   WINDOW HEIGHT            1500   1500                            
+   WINDOW WIDTH             2000   2000                            
+   WINDOW VERT. OFFSET      2500   2500                            
+   WINDOW NO. OFF HORIZ.    10.0   13.0                            
+   WINDOW NO. OFF VERT.      1.0    1.0                            
+                         --------------                            
+
+ LEGEND of wall and window types
+
+  SURFACE   WALL TYPE   WINDOW TYPE     SURFACE  WALL TYPE    WINDOW TYPE
+  -------   ----------  ----------      -------  ----------   ---------- 
+    #1      wall1       one               #2      wall1       one       
+
+ Floor Area  440.0 m2   Volume  1980.0 m3   Average Ceiling Height  4500. mm
+
+>  2  1  2 SPC REITERATION
+<  2  1  2 COOLING LOADCHART
+
+bROOM COOLING LOAD CHART AT NOMINATED TIME  3PM DEC                             
+ (SUN POSITION ~ ALTITUDE = 49.3  AZIMUTH =268.1)
+ AHU OPERATING HOURS  9AM TO  8PM. CALCS BASED ON 16 HOURS OPERATION FROM 6AM
+
+c SOLAR GAIN GLASS  ( 576 kg/m2. Modified storage load factors used)            
+
+d                                   FRAME                                       
+d No        SUN  EXPOSE   AREA GAIN S.FAC DEW STOR SHADE ROOM    WATTS          
+  -----------------------------------------------------------                    
+  #1        OFF     0.0  30.00   70 1.10 1.02 .762 0.94  100% =   1696           
+  #2        ON    270.0  39.00  540 1.10 1.02 .289 0.94  100% =   6439           
+
+c SOLAR AND TRANSMISSION GAINS WALLS AND ROOFS (Using light wt roof data)       
+ 
+d No        SUN  EXPOSE S.DENS ABS   AREA T-DIFF UVALUE  ROOM                   
+  -----------------------------------------------------------                    
+  #1        OFF     0.0 (426 0.70)  90.00    5.2   0.40  100% =    188           
+  #2        ON    270.0 (426 0.70) 117.00    9.4   0.40  100% =    438           
+
+c TRANSMISSION GAIN EXCEPT WALLS AND ROOFS                                      
+ 
+d No        ITEM                     AREA T-DIFF UVALUE  ROOM                   
+  -----     ----                     ---- ------ ------  ----                    
+  #1        GLASS                   30.00   10.3   5.62  100% =   1737           
+  #2        GLASS                   39.00   10.3   5.62  100% =   2258           
+            INFILTRATION             880.   10.3   1.21       =  10967           
+
+c INTERNAL HEAT GAIN                                                            
+      PEOPLE (ACTIV = 4)                   140.0    72.  100% =  10080           
+      LIGHTS (FLR  576 kg/m2)              12100  0.88   100% =  10602           
+      APPLIANCES                             9.4  1000.  100% =   9400           
+                                                               -------           
+d                                          ROOM SENSIBLE HEAT =  53805          
+ 
+                                                                 -----           
+d                                 ADJUSTED ROOM SENSIBLE HEAT =          53805  
+
+c LATENT HEAT GAIN                                                              
+ 
+      INFILTRATION                           880    3.1  2.97 =   8130           
+      PEOPLE (ACTIV = 4)                   140.0    58.  100% =   8120           
+      APPLIANCES                             1.7  1000.  100% =   1700           
+                                                                 -----           
+d                                            ROOM LATENT HEAT =  17950          
+ 
+                                                                 -----           
+d                                   ADJUSTED ROOM LATENT HEAT =          17950  
+
+>  2  1  2 COOLING LOADCHART
+<  2  1  2 HEATING LOADCHART
+
+bROOM HEATING LOAD CHART
+ 
+d No          EXPOSE   AREA T-DIFF UVALUE    WATTS                              
+cSENSIBLE
+  ------------------------------------------------                              
+cWALLS AND ROOFS
+  #1             0.0    90.0  20.3   0.40 =    735                              
+  #2           270.0   117.0  20.3   0.40 =    955                              
+                                                                                
+cWINDOWS
+  #1             0.0    30.0  20.3   6.10 =   3715                              
+  #2           270.0    39.0  20.3   6.10 =   4829                              
+                                                                                
+                                                                                
+  INFILTRATION  880. l/s      20.3   1.21 =  21615                              
+                                            ------                              
+d                      ROOM SENSIBLE HEAT =  31850                              
+>  2  1  2 HEATING LOADCHART

@@ -1,0 +1,15 @@
+ Mechanical and Manufacturing Engineering                          13 SEP 2017
+ University of New South Wales - 2016                                    21:23
+ -----------------------------------------------------------------------------
+JOB TITLE: assignment1                             
+ 
+ZONES AND ROOMS COMBINED RESULTS
+;;;FLOOR;No;;;ADJ.;ADJ.;;;;;;O.A;O.A;Lvg
+AHU;ZON;ROOM;AREA;of;GTH;GTH;SENS;SENS;S.A;S.A;O.A;;O.A;per;%of;Coil;HEATING;HEATING
+NO;NO;No;M2;PEOPLE;kW;W/m2;kW;W/m2;l/s;l/s/m2;l/s;Note 1;l/s/m2;Person;S.A;CDB;kW;W/m2
+  1;   ;   ;AHU1
+   ;   ;   ;  146;   50; 24.7; 169; 18.2; 124; 1306;8.94;    0; ;    ; 0.0;    ;12.0; 13.2;  91
+  2;   ;   ;AHU2
+   ;   ;   ;  440;  140; 75.7; 172; 58.2; 132; 4180;9.50;    0; ;    ; 0.0;    ;12.0; 40.6;  92
+ Note 1~ D after outside air quantity indicates direct to room
+ Note 2~ For direct evap cooling grand total sensible is used for GTH

@@ -1,0 +1,21 @@
+ Mechanical and Manufacturing Engineering                          13 SEP 2017
+ University of New South Wales - 2016                                    21:23
+ -----------------------------------------------------------------------------
+JOB TITLE: assignment1                             
+ 
+ZONES AND ROOMS COOLING CHECK FIGURES
+ (uses adjusted sensible for l/s/kW and W/m2)
+AHU;ZONE;;FLOOR;VOL;;;MIN;;l/s/;l/s/;PEAK;PEAK;;AQ
+NO;NO;TITLE;AREA;m3;CH/hr;Note 3;CH/hr;Note 3;m2;kW;TIME;MONTH;W/m2;MUL
+  1;;AHU1                ;  146;   657;  7.2; ;     ; ;   8.9;  71.9; 3PM;MAR; 124; 1.00
+  2;;AHU2                ;  440;  1980;  7.6; ;     ; ;   9.5;  71.9; 4PM;MAR; 132; 1.00
+ 
+ Note 1~ Values are at peak times except room CH/Hr and l/s/m2 is at zone peak.      
+ Note 2~ The zone air quantities are distributed to the rooms in the ratio of        
+         the room floor areas or in the ratio of the room peak sensible loads.       
+ Note 3~ Air change rates with an asterisk in the next column have reached either the
+         user entered minimum (airchange, l/s/m2 or l/s) or outdoor air, whichever is
+         the greater.                                                                
+ Note 4~ AQ MUL greater than unity indicates that the design air quantities          
+         have been increased to satisfy room minimums. The room with the             
+         largest AQ MUL has the most effect.                                         

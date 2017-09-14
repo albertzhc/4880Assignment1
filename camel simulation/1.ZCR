@@ -1,0 +1,16 @@
+ Mechanical and Manufacturing Engineering                          13 SEP 2017
+ University of New South Wales - 2016                                    21:23
+ -----------------------------------------------------------------------------
+JOB TITLE: assignment1                             
+ 
+ZONES AND ROOMS COOLING RESULTS
+ (excluding Outside Air and Return Duct Gains)
+;;;NO.          ;ADJ.;ADJ.;;VAV;AHU;RE-;ROOM;ROOM;ROOM
+AHU;ZONE;TITLE;OFF;SENS;LAT;S/A;TURN;O/A;HEAT;DB;DB;%
+NO;NO;;#;kW;kW;l/s;DWN%;l/s;kW;MIN;MAX;RH
+  1;;AHU1                ;  1;  18.2;  6.57;   1306;    ;      0; 14.2; 23.5;     ; 55
+  2;;AHU2                ;  1;  58.2;  17.6;   4180;    ;      0; 38.5; 23.5;     ; 55
+ 
+ Note 1~ The room S/A is proportion of the zone air quantity at zone peak         
+ Note 2~ The ROOM MIN/MAX is a rough estimate of the room temperature variation.  
+ Note 3~ The ROOM maximum sensible heat may be greater than the AHU sensible heat.

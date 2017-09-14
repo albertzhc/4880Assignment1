@@ -1,0 +1,44 @@
+ Mechanical and Manufacturing Engineering                          13 SEP 2017
+ University of New South Wales - 2016                                    21:23
+ -----------------------------------------------------------------------------
+ NOTE: A BLANK TABLE ENTRY DENOTES EITHER
+             (1)WEATHER DATA NOT AVAILABLE, OR
+             (2)THE ADJUSTED ROOM SENSIBLE HEAT IS LESS THAN OR EQUAL ZERO
+             (3)NO PSYCHROMETRIC RESULTS
+ -----------------------------------------------------------------------------
+<  1  0  0 TABLE SAQ                                          146.000 12  9   
+
+aAhu   1   AHU1                
+
+bConstant Supply Air Quantity is   1306 l/s
+>  1  0  0 TABLE SAQ
+<  1  1  0 TABLE SAQ                                          146.000 12  9   
+
+aZone   1   Ahu   1   AHU1                
+
+bConstant Supply Air Quantity is   1306 l/s
+>  1  1  0 TABLE SAQ
+<  1  1  1 TABLE SAQ                                          146.000 12  9   
+
+aRoom   1   T06                    Ahu   1   AHU1                   Zone   1
+
+bConstant Supply Air Quantity is   1306 l/s                                 
+>  1  1  1 TABLE SAQ
+<  2  0  0 TABLE SAQ                                          440.000 12  9   
+
+aAhu   2   AHU2                
+
+bConstant Supply Air Quantity is   4180 l/s
+>  2  0  0 TABLE SAQ
+<  2  1  0 TABLE SAQ                                          440.000 12  9   
+
+aZone   1   Ahu   2   AHU2                
+
+bConstant Supply Air Quantity is   4180 l/s
+>  2  1  0 TABLE SAQ
+<  2  1  2 TABLE SAQ                                          440.000 12  9   
+
+aRoom   2   MM03                   Ahu   2   AHU2                   Zone   1
+
+bConstant Supply Air Quantity is   4180 l/s                                 
+>  2  1  2 TABLE SAQ

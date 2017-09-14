@@ -1,0 +1,92 @@
+*JOB LIGHT SFMOD                                                      <5.11.1
+*JOB WLOC=99999 MASTERV=B                                             <5.11.1
+\PLOCA 86071  99999
+TITLE assignment1
+TITLE 
+TITLE 
+OUTDES                         S12    2.1   80  360                                       
+\PVAL 10011001                                                        0 
+\OPERATION 0920
+*SCHEDULES
+*WINDOWS
+WITYPE       one       two                                                            
+HEIGHT      1500      3000                                                            
+WIDTH       2000      3000                                                            
+UVALUE      5.62      5.62                                                            
+SHFACT      0.94      0.94                                                            
+SHACOR       1.1       1.1                                                            
+IEORB          B         B                                                            
+GLASNO        98        98                                                            
+\ISA                     1                                                            
+*WALLS
+WATYPE     wall1                                                                      
+UVALUE       0.4                                                                      
+SDENS        426                                                                      
+*PLNT
+*AHU  AHU1                       UNIT   UNIT      0920         ********AHU #1********
+AHUNIT01             NOER               N                                        
+COIL     12                                        
+OPTION    15DEC
+*ZONE ZONE                                      ********ZONE#1********
+DESIGN 23.5   55   21   80LOAD
+*ROOM T06                                         <SVAL111101*****SPACE #1********
+PARAMS  146308.8  2.1     
+DESIGN           4500                              
+*EXTERNAL
+EXPOSE         N                                                                      
+HEIGHT      6000                                                                      
+WIDTH       9000                                                                      
+WATYPE     wall1                                                                      
+ABSORP       0.7                                                                      
+WITYPE       two                                                                      
+NUMBER         1                                                                      
+VOFF        1500                                                                      
+HOFF        3000                                                                      
+*PARTITION
+AREA                                     
+UVALUE                                   
+COOLDT                                   
+HEATDT                                   
+\UID   0   0   0   0   0   0   0
+*INTERNAL
+PEOPLE   50NO         4
+LIGHTS  4.8KW       FLR
+SENS    2.5KW          
+LATENT  0.3KW          
+\SENSIBLE 
+\ROCCUPANCY INDEX 0
+\IOCCUPANCY INDEX 0
+*AHU  AHU2                       UNIT   UNIT      0920         ********AHU #2********
+AHUNIT01             NOER               N                                        
+COIL     12                                        
+OPTION    15DEC
+*ZONE ZONE                                      ********ZONE#1********
+DESIGN 23.5   55   21   80LOAD
+*ROOM MM03                                        <SVAL111101*****SPACE #2********
+PARAMS  440575.7  1.6     
+DESIGN           4500                              
+*EXTERNAL
+EXPOSE         N         W                                                            
+HEIGHT      6000      6000                                                            
+WIDTH      20000     26000                                                            
+WATYPE     wall1     wall1                                                            
+ABSORP       0.7       0.7                                                            
+WITYPE       one       one                                                            
+NUMBER        10        13                                                            
+VOFF        2500      2500                                                            
+HOFF           0         0                                                            
+*PARTITION
+AREA                                     
+UVALUE                                   
+COOLDT                                   
+HEATDT                                   
+\UID   0   0   0   0   0   0   0
+*INTERNAL
+PEOPLE  140NO         4
+LIGHTS 12.1KW       FLR
+SENS    9.4KW          
+LATENT  1.7KW          
+\SENSIBLE 
+\ROCCUPANCY INDEX 0
+\IOCCUPANCY INDEX 0
+\CSMass Defaults    10   1.0   0.5   300   0.5   0.5

@@ -1,0 +1,10 @@
+ Mechanical and Manufacturing Engineering                          13 SEP 2017
+ University of New South Wales - 2016                                    21:23
+ -----------------------------------------------------------------------------
+JOB TITLE: assignment1
+AHU SUMMARY - COOLING CHECK FIGURES and HEATING
+        TITLE   ;Percent    ;Floor ;Watts/m2 ;Air CHanges   ;  l/s/m2 ;Sensible  ;     --;HEATING  ;     -- ;Supply ;Type;Return
+              ;Outside Air  ;Area   ;;       /Hr             ; ;Heat Factor;Supply Air   ;Outside Air    ;kW ;Fan kW ;; Fan kW
+AHU1                ; 0.0;  146.0;  169;   7.2;   8.9;0.73;  1306;     0;   13.2; 0.00; DT;0.00
+AHU2                ; 0.0;  440.0;  172;   7.6;   9.5;0.77;  4180;     0;   40.6; 0.00; DT;0.00
+Whole Building      ; 0.0;  586.0;  173;   5.0;   9.4

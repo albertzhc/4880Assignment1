@@ -1,0 +1,74 @@
+ Mechanical and Manufacturing Engineering                          13 SEP 2017
+ University of New South Wales - 2016                                    21:23
+ -----------------------------------------------------------------------------
+<  0  0  0 COOLING RESULTS
+
+aZONES AND ROOMS COOLING RESULTS 
+ (excluding Outside Air and Return Duct Gains)
+ ------------------------------------------------------------------------------
+d                            NO.   ADJUSTED        VAV   AHU  RE-    ROOM COND 
+dAHU ZON       TITLE         OFF  SENS  LAT   S/A  TURN  O/A  HEAT   DB   DB  %
+d NO NO                       #    kW    kW   l/s  DWN%  l/s   kW   MIN  MAX RH
+ ------------------------------------------------------------------------------
+d  1    AHU1                  1  18.2  6.57   1306          0 14.2 23.5      55
+ ------------------------------------------------------------------------------
+d  2    AHU2                  1  58.2  17.6   4180          0 38.5 23.5      55
+ ------------------------------------------------------------------------------
+ Note 1~ The room S/A is proportion of the zone air quantity at zone peak
+ Note 2~ The ROOM MIN/MAX is a rough estimate of the room temperature variation.
+ Note 3~ The ROOM maximum sensible heat may be greater than the AHU sensible heat.
+>  0  0  0 COOLING RESULTS
+<  0  0  0 COOLING CHECK FIGURES
+
+aZONES AND ROOMS COOLING CHECK FIGURES
+ (uses adjusted sensible for l/s/kW and W/m2)
+ -----------------------------------------------------------------------------------
+dAHU ZONE                     FLOOR   VOL        MIN   l/s/  l/s/  TIME OF       AQ 
+d NO  NO       TITLE           AREA    m3 CH/hr CH/hr   m2    kW    PEAK    W/m2 MUL
+ -----------------------------------------------------------------------------------
+d  1     AHU1                   146   657  7.2          8.9  71.9  3PM MAR  124 1.00
+ -----------------------------------------------------------------------------------
+d  2     AHU2                   440  1980  7.6          9.5  71.9  4PM MAR  132 1.00
+ -----------------------------------------------------------------------------------
+ Note 1~ Values are at peak times except room CH/Hr and l/s/m2 is at zone peak.
+ Note 2~ The zone air quantities are distributed to the rooms in the ratio of 
+         the room floor areas or in the ratio of the room peak sensible loads.
+ Note 3~ Air change rates with an asterisk have reached either the user entered
+         minimum (airchange, l/s/m2 or l/s) or outdoor air, whichever is the greater.
+ Note 4~ AQ MUL greater than unity indicates that the design air quantities 
+         have been increased to satisfy room minimums. The room with the 
+         largest AQ MUL has the most effect.
+>  0  0  0 COOLING CHECK FIGURES
+<  0  0  0 HEATING
+
+aZONES AND ROOMS HEATING RESULTS AND CHECK FIGURES 
+ (excluding Outside Air except as noted)
+ ---------------------------------------------------------------------------------
+d                                                   AHU                           
+dAHU ZONE       TITLE          NO. FABRIC     S/A   O/A    ROOM    TOTAL          
+d NO  NO                       OFF   kW       l/s   l/s   CDB %RH   kW   W/m3 W/m2
+ ---------------------------------------------------------------------------------
+d  1     AHU1                   1    10.9    1306     0  21.0  80   10.9 16.6 74.6
+ ---------------------------------------------------------------------------------
+d  2     AHU2                   1    31.8    4180     0  21.0  80   31.8 16.1 72.4
+ ---------------------------------------------------------------------------------
+ Note 1~ Supply air for the zones is the minumum supply air quantity for VAV systems.
+ Note 2~ Outdoor air for rooms is the same ratio as for the heating S/A to O/A.
+ Note 3~ TOTAL kW includes outdoor sensible air load.
+ Note 4~ Check figures are based on FABRIC kW.
+>  0  0  0 HEATING
+<  0  0  0 ZONES AND ROOMS COMBINED RESULTS
+aZONES AND ROOMS COMBINED RESULTS
+ -----------------------------------------------------------------------------------------
+d                        <--------------------COOLING-------------------------->
+d             FLOOR No                       SUPPLY AIR <---OUTSIDE AIR---> Lvg
+dAHU ZON ROOM AREA  of      GTH    ADJ SENS        per         per per  %of Coil  HEATING
+d NO  NO  No    M2 PEOP   kW W/m2  kW  W/m2   l/s   m2   l/s    m2 PERS S.A CDB   kW  W/m2
+ -----------------------------------------------------------------------------------------
+d  1         AHU1
+               146   50  24.7 169  18.2 124  1306 8.94     0        0.0     12.0  13.2  91
+ -----------------------------------------------------------------------------------------
+d  2         AHU2
+               440  140  75.7 172  58.2 132  4180 9.50     0        0.0     12.0  40.6  92
+ -----------------------------------------------------------------------------------------
+>  0  0  0 ZONES AND ROOMS COMBINED RESULTS

@@ -1,0 +1,10 @@
+ Mechanical and Manufacturing Engineering                          13 SEP 2017
+ University of New South Wales - 2016                                    21:23
+ -----------------------------------------------------------------------------
+JOB TITLE: assignment1                             
+AHU SUMMARY - COOLING
+At Time of Peak Grand Total Heat (GTH)
+        Title        ;No.    ;Supply Air ;Outside ;Air  ;GTH  ;GTSH ;Coil entering;conditions ;Coil leaving;conditions
+                     ;Off    ;l/s    ;l/s   ;%     ;kW     ;kW  ;CDB  ;CWB  ;CDB  ;CWB
+AHU1                   ;    1;   1306;    0;   0.0;  24.7;  18.2; 23.5; 17.4; 12.0; 11.5
+AHU2                   ;    1;   4180;    0;   0.0;  75.7;  58.2; 23.5; 17.4; 12.0; 11.8
